@@ -7,7 +7,7 @@ from openai import OpenAI
 api_key = '99e33e32b4a9a6bf2a96a22ed522bb6a'
 base_url = "https://chat-ai.academiccloud.de/v1"
 model = "internvl2.5-8b"
-image_dir = "./images"  
+image_dir = "./images/data"  
 output_file = "saia_handwritten_text.txt"
 
 client = OpenAI(
